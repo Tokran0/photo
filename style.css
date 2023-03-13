@@ -90,3 +90,58 @@
   h3 {
     margin-bottom:10px;
   }
+.head {
+  color:red;
+}
+legend {
+  color:red;
+}
+.lo {
+  color:green;
+}
+.pa {
+  color:blue;
+}
+.zo {
+  color:red;
+}
+input[type=text],input[type=password]{
+  width:100%;
+  padding:10px;
+  margin:10px 0px 10px;
+  background:white;
+  border-radius:5px;
+}
+form {
+  width:500px;
+  margin:10px auto;
+  padding:10px;
+  background:grey;
+}
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+fieldset {
+  padding:20px;
+}
+input[type=text]:focus {
+  background:red;
+}
+input[type=password]:focus {
+  background:red;
+}
+input[type=reset],input[type=submit] {
+  background:blue;
+  width:100%;
+  margin:10px auto;
+  padding:10px 0px;
+  color:white;
+  font-size:24px;
+}
+input[type=reset]:hover,
+input[type=submit]:hover {
+  background:black;
+  border-radius:5px;
+}
